@@ -1,0 +1,15 @@
+{
+  "name": "sweden-wp-check",
+  "version": "1.0.0",
+  "description": "Checks the status of a swedish work permit process given a case number.",
+  "main": "index.js",
+  "scripts": {
+    "check": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mohamed atef",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.10.0"
+  }
+}
