@@ -3,7 +3,7 @@ const chrome = require('selenium-webdriver/chrome');
 
 const MV_URL =
   "https://www.migrationsverket.se/English/Contact-us/Check-your-application-without-logging-in.html";
-const CASE_NUMBER = 52567090;
+const CASE_NUMBER = 52567092;
 const STATUS_BOX_SELECTOR = By.css('.information-box a');
 
 (async function example() {
